@@ -17,26 +17,37 @@
         href="https://fonts.googleapis.com/css2?family=Lobster&family=Redressed&family=Satisfy&family=Audiowide&display=swap"
         rel="stylesheet">
         <script data-ad-client="ca-pub-4756984518312682" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        
-</head>
-<style>
-    nav ul li a {
+        <script>
+            function testVariable() {
+                var NP = document.getElementById("Name").value;          
+                var em = document.getElementById("email").value;
+                var ph = document.getElementById("Number").value;
+                var feed = document.getElementById("field").value;
+                var result = "Name: "+NP+"\n"+"Email id: "+em+'\n'+"Phone Number: "+ph+"\n"+"Feedback: "+feed;
+                result.addEventListener("keyup",funct)
+                document.getElementById('spanResult').textContent = result;
+                 
+            }
+        </script>
+    </head>
+    <style>
+        nav ul li a {
         font-family: 'Redressed', cursive;
         font-size: 27px;
         padding: 122px;
     }
-
+    
     nav ul li a:hover {
         font-weight: bold;
         font-style: italic;
     }
-
+    
     #home::after {
         background: url(https://tse3.mm.bing.net/th?id=OIP.cfcFlxCKeYtCGZp60IX4gAHaEK&pid=Api&P=0&w=295&h=166) no-repeat center/cover;
         /*background-size: 100% 100%;*/
 
     }
-
+    
     #home {
         display: flex;
         background-color: none;
@@ -48,13 +59,13 @@
         z-index: 1;
         color: white;
     }
-
+    
     #home h1 {
         font-family: 'Lobster', cursive;
         font-size: 6vw;
         padding: 10px;
     }
-
+    
     #gk {
         color: rgb(255, 255, 255);
         font-size: 3vw;
@@ -74,10 +85,10 @@
             align-items: center;
         }
     }
-
+    
     #content {
         display: flex;
-
+        
     }
 
     .heading {
@@ -95,6 +106,7 @@
         height: 100%;
         max-width: 336px;
         margin: 23px;
+        
         border-radius: 10%;
         box-shadow: 13px 14px 12px black;
     }
@@ -412,21 +424,21 @@
                 <form action="" method='post'>
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" name="Name" placeholder="Enter Your Name">
+                        <input type="text" class="form-control" id="Name" name="Name" placeholder="Enter Your Name">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" name="email"
+                        <input type="email" class="form-control" id="email" name="email"
                             placeholder="Enter Your email Id">
                     </div>
                     <div class="mb-3">
                         <label for="Number" class="form-label">Phone Number</label>
-                        <input type="Number" class="form-control" id="Name" name="Number"
+                        <input type="Number" class="form-control" id="Number" name="Number"
                             placeholder="Enter Your Contact Number">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Your Feedback:</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" name="feed" rows="3"
+                        <textarea class="form-control" id="feed" name="feed" rows="3"
                             placeholder="Plz Enter Your Feedback"></textarea>
                     </div>
                     <button class="btn btn-primary" href="#">
@@ -436,13 +448,13 @@
             </div>
         </div>
         <hr style="margin:15px 0px;">
-        <div class="detais" style="padding: 15px;">
+        <div class="details" style="padding: 15px;">
             <!-- Google Map Copied Code -->
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.351410686388!2d80.64106001486428!3d16.508347488610998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35faadf173eed1%3A0x67d452f18bd95573!2sLOKESH%20TOWERS!5e0!3m2!1sen!2sin!4v1608789214270!5m2!1sen!2sin"
                 target="_blank" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen></iframe>
         </div>
-        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 <footer>
     <div id="social">
