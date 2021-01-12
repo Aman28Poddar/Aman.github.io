@@ -1,0 +1,198 @@
+
+        nav ul li a {
+        font-family: 'Redressed', cursive;
+        font-size: 27px;
+        padding: 122px;
+    }
+    
+    nav ul li a:hover {
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    #home::after {
+        background: url(https://tse3.mm.bing.net/th?id=OIP.cfcFlxCKeYtCGZp60IX4gAHaEK&pid=Api&P=0&w=295&h=166) no-repeat center/cover;
+        /*background-size: 100% 100%;*/
+
+    }
+    
+    #home {
+        display: flex;
+        background-color: none;
+        background: url(https://jaxenter.com/wp-content/uploads/2019/09/shutterstock_753972046.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+        z-index: 1;
+        color: white;
+    }
+    
+    #home h1 {
+        font-family: 'Lobster', cursive;
+        font-size: 6vw;
+        padding: 10px;
+    }
+    
+    #gk {
+        color: rgb(255, 255, 255);
+        font-size: 3vw;
+        font-family: 'Audiowide', sans-serif;
+        text-shadow: 1px 1px 10px black;
+    }
+
+    .btn:hover {
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    @media only screen and (max-width: 968px) {
+        #content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+    #content {
+        display: flex;
+        
+    }
+
+    .heading {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-weight: bold;
+        font-style: italic;
+        font-family: 'Satisfy', cursive;
+        text-decoration: underline;
+    }
+    
+    #content img {
+        width: 100%;
+        height: 100%;
+        max-width: 336px;
+        margin: 23px;
+        
+        border-radius: 10%;
+        box-shadow: 13px 14px 12px black;
+    }
+    
+    #content .para {
+        margin: auto;
+    }
+    
+    #content p {
+        font-size: 30px;
+        margin: 8px;
+        font-family: 'Redressed', cursive;
+    }
+    
+    .co1 {
+        border-radius: 25%;
+    }
+    
+    .card-img-overlay {
+        position: relative;
+        display: flex;
+        justify-items: center;
+        height: auto;
+        color: white;
+        width: 100%;
+        flex-direction: column;
+        background-color: black;
+        align-items: center;
+    }
+    
+    .html {
+        display: block;
+    }
+    
+    .links {
+        font-size: 27px;
+        color: black;
+        font-weight: bold;
+        font-family: "Calibri";
+        
+        text-decoration: none;
+    }
+    
+    .href1:hover {
+        color: black;
+        font-style: normal;
+        font-family: "Times New Roman";
+        font-style: italic;
+        text-decoration: underline;
+        background-color: rgb(252, 222, 222);
+        
+    }
+    
+    .details-h {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline
+    }
+    @media only screen and (max-width:415px){
+        #content img{
+            margin-left:15%;
+            float: left;
+            width:70%;
+        }
+    }
+
+    .details {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        
+    }
+    
+    .href1 {
+        margin: 6px;
+        padding: 8px;
+        font-size: 27px;
+        border: 2px solid red;
+        border-radius: 8px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /**max-width:500px; **/
+        text-decoration: none;
+        /**min-width: 500px;**/
+        margin-bottom: 30px;
+        margin-top: 30px;
+        height: 100%;
+        padding-bottom: 50px;
+        margin-left: 6px;
+        box-shadow: 10px 12px 7px black;
+    }
+    
+    @media only screen and(min-width: 969px) {
+        .c {
+            width: 40%;
+            margin: auto;
+            margin-top: 20px;
+        }
+    }
+    
+    @media only screen and(max-width: 969px) {
+        .c {
+            width: 80%;
+            margin: auto;
+            margin-top: 20px;
+        }
+    }
+    #social{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        font-family: 'Satisfy', cursive;
+        justify-content:center;
+        align-items:center;
+        color: white;
+    }
+    footer{
+        background-color: black;
+    }

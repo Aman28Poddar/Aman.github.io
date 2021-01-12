@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
         integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
-        <link rel="icon"
-        href=Logo.jpeg
-        type="image/icon type">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="stylesheet" href="style.css">
-        <link
+    <link rel="icon" href=Logo.jpeg type="image/icon type">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link
         href="https://fonts.googleapis.com/css2?family=Lobster&family=Redressed&family=Satisfy&family=Audiowide&display=swap"
         rel="stylesheet">
-        <script data-ad-client="ca-pub-4756984518312682" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script>
-            function testVariable() {
-                var NP = document.getElementById("Name").value;          
-                var em = document.getElementById("email").value;
-                var ph = document.getElementById("Number").value;
-                var feed = document.getElementById("field").value;
-                var result = "Name: "+NP+"\n"+"Email id: "+em+'\n'+"Phone Number: "+ph+"\n"+"Feedback: "+feed;
-                result.addEventListener("keyup",funct)
-                document.getElementById('spanResult').textContent = result;
-                 
-            }
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    <script data-ad-client="ca-pub-4756984518312682" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        function testVariable() {
+            var NP = document.getElementById("Name").value;
+            var em = document.getElementById("email").value;
+            var ph = document.getElementById("Number").value;
+            var feed = document.getElementById("field").value;
+            var result = "Name: " + NP + "\n" + "Email id: " + em + '\n' + "Phone Number: " + ph + "\n" + "Feedback: " + feed;
+            result.addEventListener("keyup", funct)
+            document.getElementById('spanResult').textContent = result;
+
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
             crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -38,13 +37,12 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
-    </head>
+</head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img style="width: 85px;"
-                    src=navlogo.jpg
-                    alt="Our Logo"></a>
+            <a class="navbar-brand" href="index.html"><img style="width: 85px;" src=navlogo.jpg alt="Our Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -74,20 +72,31 @@
             </div>
         </div>
     </nav>
-    <div id="home" class="jumbotron" style="margin-bottom:0px;">
-        <h1 class="display-4">Front-End Web and Python Developer</h1>
-        <hr class="my-4">
-        <p id="gk">
-            I do my work very-effeciently and on-time. I am dedicated to my work, I am sure you will be glad with my
-            work.
-        </p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="contact.html" role="button">Hire me&rarr;</a>
-        </p>
+    <div class="jumbotron jumbotron-fluid" style="margin-top:0px;margin-bottom:0px;">
+        <div id="about" class="container">
+            <div class="heading">
+                <h1 class="display-4">About Me</h1>
+            </div>
+            <div id="content" class="row">
+                <div class="conimg col-sm-6">
+                    <img src=about.jpeg alt="Me">
+                </div>
+                <div class="para col-sm-6">
+                    <p class="lead">
+                        Hello, I am Aman Poddar, I am a young programmer of age 14, curently pursuing my 10th in
+                        Vijayawada, Andhra Pradesh, India.
+                    </p>
+                    <p>
+                        &nbsp;
+                    </p>
+                    <p class="lead">
+                        I am a Python and Front-End developer. I also have a keen interest in Java, I am interested in
+                        learning other new things related to programming.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    
-
 </body>
 <footer>
     <div id="social">
