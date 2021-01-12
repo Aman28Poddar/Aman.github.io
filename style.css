@@ -17,13 +17,12 @@
         background: url(https://jaxenter.com/wp-content/uploads/2019/09/shutterstock_753972046.jpg) no-repeat center/cover;
         background-attachment: fixed;
         align-items: center;
-        height: 100vh;
-        justify-items: center;
+        height:100vh;
+        justify-content: center;
         flex-direction: column;
         z-index: 1;
         color: white;
     }
-    
     #home h1 {
         font-family: 'Lobster', cursive;
         font-size: 6vw;
@@ -36,7 +35,17 @@
         font-family: 'Audiowide', sans-serif;
         text-shadow: 1px 1px 10px black;
     }
-
+    
+    @media only screen and (max-width:992px){
+        #home h1 {
+            font-size: 10vw;
+            padding:20px
+        }
+        #home #gk{
+            font-size: 5vw;
+            padding:20px;
+        }
+    }
     .btn:hover {
         font-style: italic;
         font-weight: bold;
